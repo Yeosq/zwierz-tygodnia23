@@ -1,0 +1,14 @@
+/* Example - same as before, colorful, rounded, grid gallery */
+body { background: #FFFAF0; font-family: 'Comic Sans MS', sans-serif; padding: 20px; }
+header { text-align: center; margin-bottom: 30px; }
+header .logo { width: 150px; }
+header h1 { font-size: 3em; color: #FF6F61; margin: 10px 0; }
+header p { font-size: 1.2em; color: #555; }
+/* Form */
+.upload-section { background: #FFF0F5; padding: 20px; border-radius: 15px; max-width: 500px; margin: 0 auto 40px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+/* Gallery */
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; }
+/* Cards & Buttons */
+.photo-card { background: white; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center; }
+.vote-btn { background: #FFB6C1; border: none; padding: 8px 15px; border-radius: 10px; cursor: pointer; font-weight: bold; }
+.vote-btn:hover { background: #FF69B4; color: white; }
